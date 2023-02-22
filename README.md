@@ -85,6 +85,8 @@ You can get the results as below, input segmentation image (left), text-guided g
 
 <img src="https://raw.githubusercontent.com/HimariO/diffusers-t2i-adapter/general-adapter/motor.png" width="35%" height="35%"> <img src="https://github.com/haofanwang/T2I-Adapter-for-Diffusers/blob/main/test.jpg" width="35%" height="35%">
 
+# T2I-Adapter + Stable-Diffusion-1.5 + Inpainting
+Coming soon!
 
 # Acknowledgement
 The diffusers pipeline is supported by [HimariO](https://github.com/HimariO/diffusers-t2i-adapter/blob/adapter/main.py), this repo is highly built on the top of it (fixed several typos) and works just as a handy tutorial.
