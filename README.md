@@ -5,6 +5,8 @@ Transfer the T2I-Adapter with any basemodel in diffusers🔥
 
 T2I-Adapter, a simple and small (~70M parameters, ~300M storage space) network that can provide extra guidance to pre-trained text-to-image models while freezing the original large text-to-image models. This repository provides the simplest tutorial code for using [T2I-Adapter](https://github.com/TencentARC/T2I-Adapter) with diverse basemodel in the diffuser framework. It is very similar to [ControlNet](https://github.com/lllyasviel/ControlNet). You can find the usage of ControlNet in diffusers framework in [this tutorial](https://github.com/haofanwang/ControlNet-for-Diffusers).
 
+We have also supported [Lora-for-Diffusers](https://github.com/haofanwang/Lora-for-Diffusers) and [ControlNet-for-Diffusers](https://github.com/haofanwang/ControlNet-for-Diffusers), 
+
 # T2I-Adapter + Stable-Diffusion-1.5
 
 As T2I-Adapter only trains adapter layers and keep all stable-diffusion models frozen, it is flexible to use any stable diffusion models as base. Here, I just use [stable-diffusion-1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5) as an example.
@@ -109,3 +111,6 @@ Coming soon!
 
 # Acknowledgement
 The diffusers pipeline is supported by [HimariO](https://github.com/HimariO/diffusers-t2i-adapter/blob/adapter/main.py), this repo is highly built on the top of it (fixed several typos) and works just as a handy tutorial.
+
+# Contact
+The repo is still under active development, if you have any issue when using it, feel free to open an issue.
