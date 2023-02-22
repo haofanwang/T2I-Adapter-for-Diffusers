@@ -3,9 +3,9 @@ Transfer the T2I-Adapter with any basemodel in diffusers🔥
 
 <img src="https://github.com/TencentARC/T2I-Adapter/raw/main/assets/overview1.png" width="100%" height="100%">
 
-T2I-Adapter, a simple and small (~70M parameters, ~300M storage space) network that can provide extra guidance to pre-trained text-to-image models while freezing the original large text-to-image models. This repository provides the simplest tutorial code for using [T2I-Adapter](https://github.com/TencentARC/T2I-Adapter) with diverse basemodel in the diffuser framework. It is very similar to [ControlNet](https://github.com/lllyasviel/ControlNet). You can find the usage of ControlNet in diffusers framework in [this tutorial](https://github.com/haofanwang/ControlNet-for-Diffusers).
+T2I-Adapter, a simple and small (~70M parameters, ~300M storage space) network that can provide extra guidance to pre-trained text-to-image models while freezing the original large text-to-image models. This repository provides the simplest tutorial code for using [T2I-Adapter](https://github.com/TencentARC/T2I-Adapter) with diverse basemodel in the diffuser framework. It is very similar to [ControlNet](https://github.com/lllyasviel/ControlNet).
 
-We have also supported [Lora-for-Diffusers](https://github.com/haofanwang/Lora-for-Diffusers) and [ControlNet-for-Diffusers](https://github.com/haofanwang/ControlNet-for-Diffusers), 
+We have also supported [Lora-for-Diffusers](https://github.com/haofanwang/Lora-for-Diffusers) and [ControlNet-for-Diffusers](https://github.com/haofanwang/ControlNet-for-Diffusers).
 
 # T2I-Adapter + Stable-Diffusion-1.5
 
