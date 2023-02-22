@@ -85,6 +85,25 @@ You can get the results as below, input segmentation image (left), text-guided g
 
 <img src="https://raw.githubusercontent.com/HimariO/diffusers-t2i-adapter/general-adapter/motor.png" width="35%" height="35%"> <img src="https://github.com/haofanwang/T2I-Adapter-for-Diffusers/blob/main/test.jpg" width="35%" height="35%">
 
+If you want to use pose as input,
+
+```
+mask = load_image("./diffusers-t2i-adapter/pose.png")
+
+prompt = ["A gril"]
+
+# note the difference here!
+image = pipe(prompt, [mask]).images[0]
+image.save('result.jpg')
+```
+
+Please note that it is required to use correct pose format to make sure the generated results are satisfied. For the pre-trained T2I-Adapter (pose), you need to use COCO format pose. [MMPose](https://github.com/open-mmlab/mmpose) is recommendated. The following examples show the difference, OpenPose format (upper), COCO format (bottom)
+
+<img src="https://github.com/haofanwang/T2I-Adapter-for-Diffusers/blob/main/pose3.png" width="35%" height="35%"> <img src="https://github.com/haofanwang/T2I-Adapter-for-Diffusers/blob/main/pose3_res.jpg" width="35%" height="35%">
+
+<img src="https://github.com/haofanwang/T2I-Adapter-for-Diffusers/blob/main/pose2.png" width="35%" height="35%"> <img src="https://github.com/haofanwang/T2I-Adapter-for-Diffusers/blob/main/pose2_res.jpg" width="35%" height="35%">
+
+
 # T2I-Adapter + Stable-Diffusion-1.5 + Inpainting
 Coming soon!
 
